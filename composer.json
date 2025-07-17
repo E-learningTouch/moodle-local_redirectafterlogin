@@ -1,0 +1,15 @@
+{
+    "name": "elearningtouch/local_redirectafterlogin",
+    "description": "Allows administrators to define custom redirection behavior after user login.",
+    "type": "moodle-local",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "local_redirectafterlogin\\": "classes/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "installer-name": "local_redirectafterlogin"
+    }
+}
