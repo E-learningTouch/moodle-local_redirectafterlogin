@@ -30,11 +30,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_redirectafterlogin';
-$plugin->version   = 2025040302;
+$plugin->version   = 2025040303;
 $plugin->requires  = 2022112800;
 // Moodle 4.1 minimum.
 $plugin->supported = [
     401,
     500,
 ];
-$plugin->release = '1.1.1';
+$plugin->release = '1.1.2';

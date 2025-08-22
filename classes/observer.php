@@ -63,6 +63,13 @@ class observer
             return;
         }
 
+        $myurl = (new \moodle_url('/my/'))->out(false);
+        $rooturl = (new \moodle_url('/'))->out(false);
+
+        if (!empty($SESSION->wantsurl) && !in_array($SESSION->wantsurl, ['/my/', '/', $myurl, $rooturl])) {
+            return;
+        }
+
         // Only reach here if user is included for redirection.
         // Load cohort mappings.
         $cohortmappings = json_decode(get_config('local_redirectafterlogin', 'cohortmappings'), true);
