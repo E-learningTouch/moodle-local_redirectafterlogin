@@ -14,9 +14,16 @@ Additionally, make sure to acknowledge all contributors by adding their names to
 
 ## Table of Contents
 
+- [1.1.2](#1.1.2)
 - [1.1.1](#1.1.1)
 - [1.1.0](#1.1.0)
 - [1.0.0](#1.0.0)
+
+## [1.1.2]
+
+## [2025-08-21] v2025082102
+### Changed
+- Prevents overriding existing wantsurl if it’s already set and not `/my/` or `/`
 
 ## [1.1.1]
 
