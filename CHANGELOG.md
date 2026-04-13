@@ -14,10 +14,18 @@ Additionally, make sure to acknowledge all contributors by adding their names to
 
 ## Table of Contents
 
+- [1.1.3](#1.1.3)
 - [1.1.2](#1.1.2)
 - [1.1.1](#1.1.1)
 - [1.1.0](#1.1.0)
 - [1.0.0](#1.0.0)
+
+## [1.1.3]
+
+## [2026-04-10] v2026041300
+### Changed
+- Integrity updates
+- Compatibily checked with Moodle 5.1 and 5.2
 
 ## [1.1.2]
 
